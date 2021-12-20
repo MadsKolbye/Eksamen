@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kandidaterne</title>
+    <script src="../lib/escapeHTML.js"></script>
+    <link rel="stylesheet" href="../../static/globalCSS.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <a href="../index/index.html">
+                <img id="logo" src="../../static/GK_Logo-m-vabenskjold_Neg_RGB.png">
+            </a>
+            <il>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+            </il>
+
+            <il>
+                <a href="../parties/parties.html">Partierne</a>
+            </il>
+
+            <il>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+            </il>
+            <il>
+                <a href="../candidates/candidates.html">Kandidaterne</a>
+            </il>
+        </ul>
+    </nav>
+    <h2>Tilføj en ny kandidat til listen:</h2>
+    <div id="create-candidate-wrapper">
+        <input id="create-candidate-name" placeholder="Navn" style="text-align:center">
+        <input id="create-candidate-party" placeholder="Parti" style="text-align: center">
+        <input id="create-candidate-votes" placeholder="Antal stemmer" style="text-align: center">
+        <button id="create-candidate-button">Tilføj kandidat</button>
+    </div>
+    <br>
+    <br>
+    <h2>Søg på din kandidat ved at indtaste parti:</h2>
+    <div class = "search-candidate-div">
+        <input id="candidate-search" placeholder="Hvilket parti kommer din kandidat fra?">
+    </div>
+    <br>
+    <br>
+    <div id="candidate-list-div"></div>
+
+<script src="candidates.js"></script>
+</body>
+</html>

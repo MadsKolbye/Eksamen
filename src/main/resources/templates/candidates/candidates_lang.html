@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kandidaterne</title>
+    <script src="../lib/escapeHTML.js"></script>
+    <link rel="stylesheet" href="../../static/globalCSS.css">
+</head>
+<body>
+
+<nav>
+    <ul>
+        <a href="../index/index_lang.html">
+            <img id="logo" src="../../static/GK_Logo-m-vabenskjold_Neg_RGB.png">
+        </a>
+        <il>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+        </il>
+
+        <il>
+            <a href="../parties/parties.html">ฝ่าย</a>
+        </il>
+
+        <il>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+        </il>
+        <il>
+            <a href="../candidates/candidates_lang.html">ผู้สมัคร</a>
+        </il>
+    </ul>
+</nav>
+<h2>เพิ่มผู้สมัครใหม่ในรายการ:</h2>
+<div id="create-candidate-wrapper">
+    <input id="create-candidate-name" placeholder="ชื่อ" style="text-align:center">
+    <input id="create-candidate-party" placeholder="งานสังสรรค์" style="text-align: center">
+    <input id="create-candidate-votes" placeholder="จำนวนโหวต" style="text-align: center">
+    <button id="create-candidate-button">เพิ่มผู้สมัคร</button>
+</div>
+<br>
+<br>
+<h2>ค้นหาผู้สมัครของคุณโดยเข้าสู่ปาร์ตี้:</h2>
+<div class = "search-candidate-div">
+    <input id="candidate-search" placeholder="ผู้สมัครของคุณมาจากพรรคไหน?">
+</div>
+<br>
+<br>
+<div id="candidate-list-div"></div>
+
+<script src="candidates.js"></script>
+</body>
+</html>

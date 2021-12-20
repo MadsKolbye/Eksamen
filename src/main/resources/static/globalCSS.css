@@ -1,0 +1,43 @@
+body{
+    background-color: darkseagreen;
+}
+
+#welcome-title{
+    text-align: center;
+}
+
+#logo{
+    height: 100px;
+}
+
+il{
+    font-size: 60px;
+    font-family: Calibri;
+
+}
+
+tr{
+    text-align: center;
+    left: 1000px;
+}
+td{
+
+}
+
+#candidate-search{
+    height: 35px;
+    width: 510px;
+    font-size: 30px;
+}
+
+p{
+    font-size: 25px;
+}
+
+img{
+    height: 400px;
+}
+
+#frontpage-image{
+    text-align: center;
+}
